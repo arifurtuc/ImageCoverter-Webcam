@@ -28,3 +28,6 @@ if uploaded_image:
     gray_uploaded_img = img.convert('L')
     # Display the grayscale image on the webpage
     st.image(gray_uploaded_img)
+
+# Display a copyright using Markdown
+st.markdown("&copy; 2023 Developed by Arif.")
